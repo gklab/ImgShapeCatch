@@ -8,5 +8,8 @@
 
 docusign（电子签章）的纸质文件扫描
 
-## 示例
+## 安装
+python3
+
+opencv-python
 
