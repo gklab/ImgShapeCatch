@@ -3,8 +3,8 @@ import time
 import numpy as np
 import math
 
-def extract_contour():
-	imgName = "WechatIMG11.jpeg"
+def extract_contour(imgName):
+	# imgName = "WechatIMG11.jpeg"
 	img = cv2.imread(imgName)
 	source_img = img
 	img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
